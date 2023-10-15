@@ -1,0 +1,5 @@
+package com.remedios.ApiRemedios.controllers;
+
+public class RemedioController {
+
+}
