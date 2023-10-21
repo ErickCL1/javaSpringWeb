@@ -1,0 +1,20 @@
+package com.remedios.ApiRemedios.remedio;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+public record DadosCadastroRemedios(
+		
+		
+		@NotBlank // evita aceitar dados em branco
+		String nome,
+		Via via,
+		String lote,
+		String quantidade,
+		String validade,
+		Laboratorio laboratorio)
+		
+		
+		{
+	
+}
