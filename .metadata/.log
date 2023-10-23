@@ -5983,3 +5983,6 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 18:13:22.336
 !MESSAGE Classpath changed for project: ApiRemedios
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 18:41:13.982
+!MESSAGE Classpath changed for project: ApiRemedios
