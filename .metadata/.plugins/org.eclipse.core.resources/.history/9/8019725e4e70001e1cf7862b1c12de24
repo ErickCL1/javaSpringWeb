@@ -1,0 +1,7 @@
+package com.remedios.ApiRemedios.remedio;
+
+import jakarta.validation.constraints.NotBlank;
+
+public record DadosAtualizarRemedios(@NotBlank Long id, String nome, Via via, Laboratorio laboratorio) {
+
+}

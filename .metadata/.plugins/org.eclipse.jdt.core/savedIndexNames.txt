@@ -37,12 +37,12 @@ INDEX VERSION 1.132+C:\Users\mp877\OneDrive\Área de Trabalho\ProjetoRemedios\.me
 3647254343.index
 1810219189.index
 3520034584.index
-3764430248.index
+494623246.index
 3342910945.index
 2385504467.index
-494623246.index
-3989996025.index
+3764430248.index
 333699653.index
+3989996025.index
 3186527567.index
 1114145550.index
 3898446121.index
@@ -81,6 +81,7 @@ INDEX VERSION 1.132+C:\Users\mp877\OneDrive\Área de Trabalho\ProjetoRemedios\.me
 3431060958.index
 3599253143.index
 790711992.index
+2700415487.index
 705798684.index
 1796263333.index
 1216266939.index
