@@ -32,6 +32,7 @@ public class Remedio {
 		this.quantidade = dados.quantidade();
 		this.validade = dados.validade();
 		this.laboratorio = dados.laboratorio();
+		this.ativo = true;
 	}
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)// VAI GERAR ID AUTOMATICAMENTE
 	private Long id; // ID DA APLICAÇÃO E CONSEQUENTEMENTE CHAVE PRIMÁRIA
@@ -41,8 +42,11 @@ public class Remedio {
 	private String lote;
 	private	int quantidade;
 	private	LocalDate validade;
+	
 	@Enumerated(EnumType.STRING)
 	private Laboratorio laboratorio;
+	
+	private Boolean ativo;
 	
 	public void atualizarInformacoes(@Valid DadosAtualizarRemedios dados) {
 		if(dados.nome() != null) {
@@ -54,5 +58,15 @@ public class Remedio {
 		if(dados.laboratorio() != null) {
 			this.laboratorio = dados.laboratorio();
 		}
+	}
+
+	public void inativar() {
+		this.ativo = false;
+		
+	}
+
+	public void ativar() {
+		this.ativo = true;
+		
 	}
 }
