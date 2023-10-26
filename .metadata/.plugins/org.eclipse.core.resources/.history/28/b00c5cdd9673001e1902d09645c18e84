@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de remédio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <label for="nome">Nome</label> <br/>
+  <input type="text" name="nome"></input> <br/>
+</body>
+
+</html>

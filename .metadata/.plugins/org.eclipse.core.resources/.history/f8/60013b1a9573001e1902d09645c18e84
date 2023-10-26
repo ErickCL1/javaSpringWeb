@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de remédio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+  <div class="container">
+    <div class="filho" id="filho">
+
+      <form action="remedios1" method="post">
+      <div class="conteudo" id="conteudo">
+
+        <label for="nome-remedio" class="text-white">Nome do remédio</label>
+        <br>
+        <input type="text" class="form-control form-control-dark" id="nome-remedio" name="nome-remedio" required>
+        <br>
+
+        <label for="via" class="text-white">Via</label>
+        <br>
+        <select class="form-control form-control-dark" id="via" name="via" required>
+          <option value="ORAL">ORAL</option>
+          <option value="NASAL">NASAL</option>
+          <option value="RETAL">RETAL</option>
+          <option value="INTRAMUSCULAR">INTRAMUSCULAR</option>
+        </select>
+        <br>
+
+        <label for="lote" class="text-white">Lote</label>
+        <br>
+        <input type="text" class="form-control form-control-dark" id="lote" name="lote" required>
+        <br>
+
+        <label for="quantidade" class="text-white">Quantidade</label>
+        <br>
+        <input type="number" class="form-control form-control-dark" id="quantidade" name="quantidade" required>
+        <br>
+
+
+        <label for="validade" class="text-white">Validade</label>
+        <br>
+        <input type="date" class="form-control form-control-dark" id="validade" name="validade" required>
+        <br>
+
+
+        <label for="laboratorio" class="text-white">Laboratório</label>
+        <br>
+        <input type="text" class="form-control form-control-dark" id="laboratorio" name="laboratorio" required>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-dark">Enviar</button>
+
+
+      </div>
+    </form>
+
+
+    </div>
+    
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de remédio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <form action="http://localhost:8080/remedios/post" method="post">
+  <label for="nome">Nome</label> <br/>
+  <input type="text" name="nome"></input> <br/>
+  
+  <label for="via">Via</label> <br/>
+  <input type="text" name="via"></input> <br/>
+  
+  <label for="lote">Lote</label> <br/>
+  <input type="text" name="lote"></input> <br/>
+  
+  <label for="quantidade">Quantidade</label> <br/>
+  <input type="text" name="quantidade"></input> <br/>
+  
+  <label for="validade">Validade</label> <br/>
+  <input type="text" name="validade"></input> <br/>
+  
+  <label for="laboratorio">Laboratório</label> <br/>
+  <input type="text" name="laboratorio"></input> <br/>
+  
+  <button type="submit">Enviar</button>
+  </form>
+  
+  
+</body>
+
+</html>

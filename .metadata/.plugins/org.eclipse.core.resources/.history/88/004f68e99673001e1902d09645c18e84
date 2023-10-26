@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color:#121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 200;
+    color: aliceblue;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    justify-content: center;
+    font-size: medium;
+    font-size: 200;
+
+}
+.filho{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin: 20px 20px 20px 20px;
+}
