@@ -31,7 +31,7 @@ public class RemedioController {
 	@Autowired
 	private RemedioRepository repository;
 	
-	@PostMapping
+	@PostMapping //201 CREATED
 	@Transactional 
 	public ResponseEntity<DadosDetalhamentoRemedio> cadastrar(@RequestBody @Valid DadosCadastroRemedios dados, 
 			UriComponentsBuilder uriBuilder) {
@@ -46,14 +46,14 @@ public class RemedioController {
 		
 	}
 	
-	@GetMapping  // 204 NO CONTENT
+	@GetMapping  // 204 OK
 	public ResponseEntity<List<DadosListagemRemedio>> Listar(){
 		var lista = repository.findAllByAtivoTrue().stream().map(DadosListagemRemedio::new).toList();
 		return ResponseEntity.ok(lista);
 		
 	}
 	
-	@PutMapping  // 204 NO CONTENT
+	@PutMapping  // 204 OK
 	@Transactional
 	public ResponseEntity<DadosDetalhamentoRemedio> atualizar(@RequestBody @Valid DadosAtualizarRemedios dados) {
 		var remedio = repository.getReferenceById(dados.id());
@@ -84,7 +84,7 @@ public class RemedioController {
 		return ResponseEntity.noContent().build();
 	}
 	
-	@GetMapping("/{id}") // 204 NO CONTENT
+	@GetMapping("/{id}") // 204 OK
 	public ResponseEntity<DadosDetalhamentoRemedio> detalhar(@PathVariable Long id) {
 		var remedio =repository.getReferenceById(id);
 		return ResponseEntity.ok(new DadosDetalhamentoRemedio(remedio));

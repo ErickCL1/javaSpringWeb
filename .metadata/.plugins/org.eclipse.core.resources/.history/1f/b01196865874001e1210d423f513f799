@@ -1,0 +1,10 @@
+package infra;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice 
+// Toda vez que acontecer alguma exception, essa class vai ser buscada,vai identificar se estamos tratando a exception abaixo
+// e vai determinar o tratamento que vamos escolher.
+public class TratadorDeErros {
+
+}
