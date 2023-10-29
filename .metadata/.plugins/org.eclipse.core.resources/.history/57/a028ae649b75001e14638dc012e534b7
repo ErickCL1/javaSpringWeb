@@ -1,0 +1,19 @@
+package infra;
+
+
+
+//Toda vez que acontecer alguma exception, essa class vai ser buscada,vai identificar se estamos tratando a exception abaixo
+//e vai determinar o tratamento que vamos escolher.
+
+/*TRATAMENTO NÃO FUNCIONANDO
+@RestControllerAdvice 
+public class TratadorDeErros {
+	
+	@ExceptionHandler(EntityNotFoundException.class)
+	public ResponseEntity<?> tratarErro404() {
+		return ResponseEntity.notFound().build();
+	}
+	
+	
+}
+*/

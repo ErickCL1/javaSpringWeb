@@ -1,0 +1,6 @@
+package com.remedios.ApiRemedios.usuario;
+
+public enum Laboratorio {
+	ACHE,
+	MEDLEY
+}
